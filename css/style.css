@@ -1,0 +1,20 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 100vh;
+}
+#modeToggle{
+    border:0;
+    background-color: transparent;
+    font-size: 50px;
+    color:blue;
+}
+.dark-mode{
+    background-color: #333;
+    color: #fff;
+}
+.dark-mode #modeToggle{
+    color:#e91313
+}
